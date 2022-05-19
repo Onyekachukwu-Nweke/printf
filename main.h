@@ -6,7 +6,6 @@ int _putchar(char c);
 int _printf(const char *format, ...);
 int print_int(va_list arg);
 int print_char(va_list arg);
-int print_STR(va_list arg);
 int print_str(va_list arg);
 
 typedef struct identifierStruct
