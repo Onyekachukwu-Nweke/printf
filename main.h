@@ -7,7 +7,12 @@ int _printf(const char *format, ...);
 int print_int(va_list arg);
 int print_char(va_list arg);
 int print_str(va_list arg);
-
+/**
+ * struct identifierStruct - this determines the identifer
+ * and function used to print the i dentifier
+ * @identifier: character argument
+ * @printer: function pointer
+ */
 typedef struct identifierStruct
 {
 	char *identifier;
