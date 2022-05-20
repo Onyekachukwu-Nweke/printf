@@ -47,7 +47,7 @@ int print_str(va_list arg)
 
 int print_int(va_list arg)
 {
-	unsigned int divisor = 1, resp, i, charPrinted;
+	unsigned int divisor = 1, resp, i, charPrinted = 0;
 	int n = va_arg(arg, int);
 
 	if (n < 0)
