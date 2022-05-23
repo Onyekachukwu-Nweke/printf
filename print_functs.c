@@ -27,7 +27,7 @@ int print_str(va_list arg)
 	char *s = va_arg(arg, char *);
 
 	if (s == NULL)
-		s = "(nil)";
+		s = "(null)";
 	else if (*s == '\0')
 		return (-1);
 
