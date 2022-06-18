@@ -7,6 +7,8 @@ int _printf(const char *format, ...);
 int print_int(va_list arg);
 int print_char(va_list arg);
 int print_str(va_list arg);
+int print_unsignedToBinary(va_list arg);
+void print_binary(unsigned int n, unsigned int *printed);
 /**
  * struct identifierStruct - this determines the identifer
  * and function used to print the i dentifier

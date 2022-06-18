@@ -15,6 +15,7 @@ int printIdentifiers(char next, va_list arg)
 	identifierStruct functs[] = {
 		{"c", print_char}, {"s", print_str},
 		{"d", print_int}, {"i", print_int},
+		{"b", print_unsignedToBinary},
 		{NULL, NULL}
 	};
 
